@@ -1,0 +1,87 @@
+*{margin: 0;}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    margin: 10px 80px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8); /* شبه شفاف */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    
+
+}
+.logo{
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+
+    color: #144816;
+    font-size: 20px;
+    display: flex;
+    gap: 6px;
+}
+ span{
+    position: relative;
+    top: -2px;
+    
+}
+
+.nav-buttons{
+    display: flex;
+    gap: 10px;;
+    
+}
+.nav-buttons button{
+
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #4b844d;
+    color: white;
+    cursor: pointer;
+  border: none;
+  padding: 8px 18px;
+  margin-left: 10px;
+}
+
+.nav-buttons button:hover{
+ background-color: #3a6e48;
+  transform: scale(1.03);
+}
+.HeroSectionContainer{
+    margin-top: 50px;
+      font-family: "Work Sans", sans-serif;
+
+}
+.inner-container{
+    display: flex;
+    margin: 10px 80px;
+    padding: 0px 100px;
+
+}
+.img-section img{
+    width: 500px;
+    height: 400px;
+  
+}
+.text-section p{
+opacity: 0.6;
+}
+.text-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+    gap: 20px;
+}
+
+.text-section span{
+    color: #75a96f;
+}
+
+.text-section span:hover {
+  color: #083d11;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
