@@ -1,6 +1,29 @@
-# HR-Assistant
+# HR Assistant 👩‍💼👨‍💼
 
-React app for managing HR tasks Supports HR managers and employees with attendance, leave requests, announcements, and other features.
+A web-based HR management system that helps companies manage their employees efficiently.  
+The app supports two user roles: **HR managers** and **employees**, with different features for each role.
+
+---
+
+## 🚀 Features
+
+- User authentication (HR and Employee)
+- Company environment creation by HR
+- Employee invitations
+- Leave request system
+- Internal announcements (by HR)
+- Attendance tracking
+- Employee profile management
+- Role-based dashboard views
+
+---
+
+## 🛠 Tech Stack
+
+- **React** (Frontend)
+- **Vite** (Build Tool)
+- **Tailwind CSS** (Styling)
+- **Firebase** (Authentication & Database)
 
 # React + Vite
 
